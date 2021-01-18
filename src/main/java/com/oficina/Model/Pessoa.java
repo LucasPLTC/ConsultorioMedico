@@ -9,6 +9,4 @@ public abstract class Pessoa {
     String cpf;
     String telefone;
     Date dtnasc;
-
-
 }

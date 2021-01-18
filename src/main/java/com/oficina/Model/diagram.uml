@@ -3,19 +3,50 @@
   <ID>JAVA</ID>
   <OriginalElement />
   <nodes>
-    <node x="0.0" y="0.0">com.oficina.Model.Pessoa</node>
+    <node x="116.0" y="306.0">com.oficina.Model.Atendente</node>
+    <node x="108.0" y="0.0">com.oficina.Model.Pessoa</node>
+    <node x="200.0" y="226.0">com.oficina.Model.Paciente</node>
+    <node x="0.0" y="306.0">com.oficina.Model.Medico</node>
+    <node x="43.999999999999986" y="226.0">com.oficina.Model.Funcionario</node>
+    <node x="0.0" y="381.0">com.oficina.Model.Consulta</node>
   </nodes>
   <notes />
-  <edges />
-  <settings layout="Hierarchic Group" zoom="1.0" x="870.0" y="387.0" />
+  <edges>
+    <edge source="com.oficina.Model.Atendente" target="com.oficina.Model.Funcionario">
+      <point x="0.0" y="-15.0" />
+      <point x="176.0" y="281.0" />
+      <point x="146.0" y="281.0" />
+      <point x="34.000000000000014" y="15.0" />
+    </edge>
+    <edge source="com.oficina.Model.Funcionario" target="com.oficina.Model.Pessoa">
+      <point x="1.4210854715202004E-14" y="-15.0" />
+      <point x="112.0" y="201.0" />
+      <point x="146.0" y="201.0" />
+      <point x="-38.0" y="88.0" />
+    </edge>
+    <edge source="com.oficina.Model.Paciente" target="com.oficina.Model.Pessoa">
+      <point x="0.0" y="-15.0" />
+      <point x="256.0" y="201.0" />
+      <point x="222.0" y="201.0" />
+      <point x="38.0" y="88.0" />
+    </edge>
+    <edge source="com.oficina.Model.Medico" target="com.oficina.Model.Funcionario">
+      <point x="0.0" y="-15.0" />
+      <point x="48.0" y="281.0" />
+      <point x="77.99999999999999" y="281.0" />
+      <point x="-34.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="870.0" y="367.0" />
   <SelectedNodes>
-    <node>com.oficina.Model.Pessoa</node>
+    <node>com.oficina.Model.Consulta</node>
   </SelectedNodes>
   <Categories>
-    <Category>Inner Classes</Category>
-    <Category>Methods</Category>
-    <Category>Constructors</Category>
     <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
   </Categories>
   <SCOPE>All</SCOPE>
   <VISIBILITY>private</VISIBILITY>
